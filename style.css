@@ -13,6 +13,9 @@ header {
     background-color: aqua;
     color: black;
 }
+h1 span {
+    color: white;
+}
 nav a {
     color: black;
     text-decoration: none;
@@ -25,6 +28,49 @@ nav a {
     padding: 10px 20px;
     color: black;
     border-radius: 10px;
+}
+.nav {
+    display: flex;
+}
+.dropbtn a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 200;
+}
+.dropbtn {
+    padding: 10px 20px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    background-color: aqua;
+    font-size: 15px;
+    font-weight: 200;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    background-color: aqua;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: gray;
 }
 .hero {
     width: 100%;
@@ -179,6 +225,15 @@ nav a {
 }
 .about p {
     margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.about h2 {
+    margin-bottom: 10px;
+}
+.about a {
+    text-decoration: none;
+    color: black;
     font-size: 1.2rem;
     font-weight: 400;
 }
