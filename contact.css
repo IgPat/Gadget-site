@@ -80,9 +80,9 @@ input {
 .body {
     min-height: 100vh;
     width: 1005;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-content: center;
+    align-content: center; */
     background-image: url("images/bg.jpg");
     background-size: cover;
     background-position: center;
@@ -96,7 +96,7 @@ input {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    /* background-color: rgba(0, 0, 0, 0.8); */
 }
 
 section {
